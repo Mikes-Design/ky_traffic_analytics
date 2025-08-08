@@ -88,3 +88,23 @@ https://opengisdata.ky.gov/datasets/kygeonet::major-freight-user-in-kentucky/abo
 Major Traffic Generators in Kentucky:
 
 https://opengisdata.ky.gov/datasets/kygeonet::major-traffic-generators-in-kentucky/about
+
+
+Setup Instructions
+
+1. Clone the Repository
+
+git clone https://github.com/Mikes-Design/ky_traffic_analytics
+cd ky_traffic_analytics
+
+2. Create a Virtual Environment
+
+python -m venv congestion-env
+source congestion-env/bin/activate  # On Windows: congestion-env\Scripts\activate
+
+3. Install Dependencies
+
+pip install -r requirements.txt
+
+
+
